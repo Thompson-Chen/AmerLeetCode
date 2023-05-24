@@ -1,3 +1,5 @@
+// 移除与插入链表元素
+// 删除链表的倒数第N个结点
 #include <iostream>
 #include <stack>
 using namespace std;
