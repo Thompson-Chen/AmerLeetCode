@@ -37,5 +37,8 @@ public:
 
 int main()
 {
-    
+    vector<int> test_arr = {1,1,0,1,1,1};
+    Solution *solution = new Solution();
+    cout<< solution->findMaxConsecutiveOnes(test_arr);
+    return 0;
 }
