@@ -147,3 +147,4 @@
 | 142| 环形链表II | 推数学公式，得到“相遇点到成环点的距离和起点到成环点的距离相等”的结论
 | 876 | 链表的中间节点|（简单题）快慢双指针
 | 143 | 重排链表 | 1. STL的deque双端队列好像Leetcode总是会报错；2. 链表反转+链表中点+链表合并(**这道题要好好看看**)
+| 160 | 相交链表 | （简单题）用栈来反向匹配、哈希表数据结构也类似；双指针解法也有点意思可以看看。[本题题解](https://leetcode.cn/problems/intersection-of-two-linked-lists/solutions/811625/xiang-jiao-lian-biao-by-leetcode-solutio-a8jn/)
