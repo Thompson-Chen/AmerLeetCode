@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+// 平均耗时4ms，空间复杂度700KB左右
 
 // 密码合规检测，如果合规则返回true，反之返回false
 bool pwd_check(string pwd)
@@ -61,8 +62,8 @@ int main()
     string s = "";
     cin>>s;
     // 难点：字符串读取
-
-    // 方法1: substr + vector动态数组
+    // substr + vector动态数组（substr用不了就用字符串拼接‘+’，vector用不了就开一个恒定长度为100的静态数组（因为输入字符串长度不大于100））
+    // 甚至可以不提取出来，直接定义两个变量，start和end，对end进行遍历，当end遇到","时就开始pwd_check，check完判断是否要输出，然后start = end+1（但要注意在原字符串末尾添加','）
     int start = 0;
     int end = start;
     vector<string> pwd;
@@ -78,6 +79,7 @@ int main()
     // 思考下为什么要加这一行
     pwd.push_back(s.substr(start,end-start));
 
+    // 逐行检测
     for(auto &item: pwd)
     {
         if(pwd_check(item))
@@ -86,6 +88,6 @@ int main()
         }
     }
 
-    // 校验
+
     return 0;
 }
