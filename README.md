@@ -177,3 +177,5 @@
 | 序号 | 题目 | 备注
 |-|-|-
 | 1 | 两数之和 |  (简单题)unordered_map简单应用，时间复杂度O(n)
+| 599 | 两个列表的最小索引总和 | (简单题)unordered_map简单应用 [但是leetcode是机翻的，You need to help them find out their common interest with the least list index sum. ，却翻译成了 你需要帮助他们用最少的索引和找出他们共同喜爱的餐厅。 with的意思翻译错了。 正确翻译应该是：你需要帮助他们找到索引和最小的共同喜爱的餐厅，即首先必须是双方共同感兴趣的餐厅，其次这家餐厅在两个数组中出现位置的索引和最小。]
+| 219 | 存在重复元素 II | (简单题)unordered_map简单应用，时间复杂度O(n) （还可以用滑动窗口来解题）
