@@ -29,18 +29,11 @@ public:
         // unordered_map的遍历
         for (auto iter = umap.begin(); iter != umap.end(); ++iter)
         {
-            if(umap.count(iter->first+1))
+            if (umap.count(iter->first + 1))
             {
-                max = max < iter->second + umap[iter->first+1]? iter->second + umap[iter->first+1]:max;
+                max = max < iter->second + umap[iter->first + 1] ? iter->second + umap[iter->first + 1] : max;
             }
         }
-        // 另一种更简便的方式
-        // for (auto [key, val] : umap) {
-        //     if (umap.count(key + 1)) {
-        //         res = max(res, val + umap[key + 1]);
-        //     }
-        // }
-
 
         return max;
     }
