@@ -5,7 +5,6 @@
 #include <vector>
 using namespace std;
 
-// 感觉没啥好做的，就是用一个数组实现三个栈，感觉用串行排列就好了
 
 class TripleInOne
 {

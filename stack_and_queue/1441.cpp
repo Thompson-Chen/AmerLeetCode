@@ -5,7 +5,6 @@
 #include <vector>
 using namespace std;
 
-// 不像中等题，更像是简单题
 
 class Solution
 {
