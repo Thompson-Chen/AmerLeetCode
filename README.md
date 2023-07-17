@@ -223,3 +223,4 @@
 |-|-|-
 | 496 | 下一个更大元素 I | 单调栈+哈希表(好好体会思想——[官方题解](https://leetcode.cn/problems/next-greater-element-i/solutions/1065517/xia-yi-ge-geng-da-yuan-su-i-by-leetcode-bfcoj/))
 | 84 | 柱状图中最大的矩形 | (困难题)独立完成，栈里面去维护一个长方形的高，保持这个单调递增，遇到递减，就出栈然后更新
+| 739 | 每日温度 | 和 ***496. 下一个更大元素 I*** 很像，这两题可以一起做
