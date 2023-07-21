@@ -242,3 +242,4 @@
 | 序号 | 题目 | 备注
 |-|-|-
 | 316 | 去除重复字母 | 没思路，看的[题解](https://leetcode.cn/problems/remove-duplicate-letters/solutions/527359/qu-chu-zhong-fu-zi-mu-by-leetcode-soluti-vuso/)。贪心 + 单调栈
+| 1209 | 删除字符串中的所有相邻重复项II | 
