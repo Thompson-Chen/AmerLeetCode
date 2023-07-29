@@ -254,3 +254,10 @@
 | 636 | 函数的独占时间 | 和20题有异曲同工之妙，创建一个栈stk专门用来存放start状态的log，当栈中存在元素时，添加新元素则要更新值；当不存在元素时，添加新元素直接加就好；遇到end元素则将栈顶元素弹出并更新值，同时判断此时栈中是否还存在元素，如果存在元素则要将该元素的时间戳timestemp更新为当前end元素的时间戳+1
 | 591 | 标签验证器 | 
 | 32 | 最长有效括号 | （困难）看的[题解](https://leetcode.cn/problems/longest-valid-parentheses/solutions/314683/zui-chang-you-xiao-gua-hao-by-leetcode-solution/)……有点难
+
+6. 表达式求值
+
+| 序号 | 题目 | 备注
+|-|-|-
+| 150 | 逆波兰表达式求值 | 逆波兰表达式其实也就是后序遍历，后序遍历求值直接用栈来解决就好：遇到二元操作符（加减乘除）直接弹出两个元素，计算完之后再入栈就好
+| 224 | 基本计算器 | 我的思路：中缀转为后缀的逆波兰表达式，然后再求——但是代码很长，面向用例编程无法全部测试用例跑通（42/44）；看代码[官方题解](https://leetcode.cn/problems/basic-calculator/solutions/646369/ji-ben-ji-suan-qi-by-leetcode-solution-jvir/)
