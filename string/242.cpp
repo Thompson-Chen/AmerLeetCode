@@ -1,4 +1,4 @@
-// 字符串的反转
+// 字符的统计
 // 反转字符串中的单词
 // https://leetcode.cn/problems/reverse-words-in-a-string/
 #include <iostream>
