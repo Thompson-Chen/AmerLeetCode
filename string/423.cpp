@@ -1,6 +1,6 @@
 // 字符的统计
-// 根据字符出现频率排序
-// https,//leetcode.cn/problems/sort-characters-by-frequency/
+// 从英文中重建数字
+// https://leetcode.cn/problems/reconstruct-original-digits-from-english/description/
 #include <iostream>
 #include <string>
 #include <vector>
