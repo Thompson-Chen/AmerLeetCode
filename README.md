@@ -398,4 +398,4 @@
 |-|-|-
 | 482 | 密钥格式化 | 正常遍历
 | 6 | Z字形变换 | 每行构造一个数组，模拟法即可
-
+| 68 | 文本左右对齐 | （困难）搞了快1小时都做不出来md……直接看[题解](https://leetcode.cn/problems/text-justification/solutions/986756/wen-ben-zuo-you-dui-qi-by-leetcode-solut-dyeg/)吧（模拟法属实恶心心）
