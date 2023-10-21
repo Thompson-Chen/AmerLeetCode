@@ -47,6 +47,23 @@ public:
             }
         }
         return true;
+
+        // 位运算 （https://leetcode.cn/problems/binary-number-with-alternating-bits/solutions/1368822/jiao-ti-wei-er-jin-zhi-shu-by-leetcode-s-bmxd/）
+        // long a = n ^ (n >> 1);
+        // return (a & (a + 1)) == 0;
+
+        // 模拟法（从最低位至最高位，我们用对 222 取模再除以 222 的方法，依次求出输入的二进制表示的每一位，并与前一位进行比较。如果相同，则不符合条件；如果每次比较都不相同，则符合条件。）
+        
+        // int prev = 2;
+        // while (n != 0) {
+        //     int cur = n % 2;
+        //     if (cur == prev) {
+        //         return false;
+        //     }
+        //     prev = cur;
+        //     n /= 2;
+        // }
+        // return true;
     }
 };
 
